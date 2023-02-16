@@ -9,8 +9,122 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
 		<title>Website Newbie</title>
+		<style>
+			table, th, td{
+				border: 1px solid black;
+			}
+		</style>
 	</head>
 	<body>
 		<h1>Hello World</h1>
+		<p>paragraf</p>
+		<hr>
+		<br>
+		<h1>1<h2>2<h3>3<h4>4<h5>5<h6>6</h6></h5></h4></h3></h2></h1>
+		<!-- b=bold; i=miring; sub=bawah;sup=pangkat -->
+		<b>bold <i>miring <sub>dibawah <sup>pangkat ""referensi w3school""</sup></sub></i></b>
+		<!-- unorderlist -->
+		<h1>Unorderlist</h1>
+		<ul>
+			<li>type = disc (default)</li>
+			<li type="circle">circle</li>
+			<li type="square">square</li>
+			<li type="none">none</li>
+		</ul>
+		<!-- orderlist -->
+		<h1>Orderlist</h1>
+		<ol>
+			<li>type = 1 (default)</li>
+			<li type="I">I</li>
+			<li type="A">A</li>
+			<li type="a">a</li>
+			<li type="i">i</li>
+		</ol>
+		<h1>Table</h1>
+		<!-- Table create -->
+		<table>
+			<tr>
+				<th>Company</th>
+				<th>Contact</th>
+				<th>Country</th>
+				<th>Lokasi</th>
+			</tr>
+			<tr>
+				<td>Alfreds</td>
+				<td>Maria</td>
+				<td colspan="2">Germany</td>
+			</tr>
+			<tr>
+				<td>Centro commercial</td>
+				<td>Fransisco Chang</td>
+				<td colspan="2">Mexico</td>
+			</tr>
+		</table>
+		<!-- CSS terbagi 3 yaitu inline CSS, internal CSS dan exsternal CSS -->
+		<p>pada table ada dinamakan colspan, rowspan fungsi untuk merge/unmerge kolom atau row</p>
+		<!-- Image -->
+		<h1>Image</h1>
+		<img src="../JavaScript/Img/Picture1.png" alt="ini gambar"> <!--ini cara lokal -->
+		<img src="url_from_web.jpeg" alt="ini gambar dari web" width="100" height="100"><!--ini dari web-->
+		<!-- Absolute link dan relative link -->
+		<h1>Links</h1>
+		<p><a href="https://www.google.com" target="_blank">google</a> <!--absolute link--></p>
+		<p><a href="/index.html" target="_blank">halaman index</a> <!--relative link--></p>
+		<p><a href="#aku">Klik untuk cari namaku</a><!--ID links--></p>
+		<h2 id="aku">Andi</h2>
+		<h2 id="kau">Andi</h2>
+		<h2 id="kau">Andi</h2>
+		<h2 id="kau">Andi</h2>
+		<h2 id="kau">Andi</h2>
+		<h2 id="kau">Sandi</h2>
+		<h2 id="kau">Andi</h2>
+		<!-- Create Form -->
+		<h1>Form</h1>
+		<form action="" method="post"> <!--method get dan post-->
+			<label for="nama">Nama :</label>
+			<input type="nama">
+			<br/>
+			<label for="password">password</label>
+			<input type="password" required>
+			<br/>
+			<input type="checkbox">
+			<br/>
+			<input type="radio">
+			<br/>
+			<input type="number" min="1" max="10">
+			<br/>
+			<textarea name="" id="" cols="30" rows="10">Ketik disini</textarea>
+			<br/>
+			<input type="submit" value="ok">
+			</form>
+			<!-- button -->
+			<button type="button" onclick="">OK</button>
+			<!-- select form -->
+			<select name="" id="">
+				<option value=""></option>
+				<option value="" selected></option>
+			</select>
+			<!-- option group -->
+			<select name="" id="">
+				<optgroup label="new">
+					<option value=""></option>
+				</optgroup>
+			</select>
+			<!-- field sets and legend -->
+			<fieldset>
+				<legend></legend>
+			</fieldset>
+			<header>header</header>
+			<nav>navigation</nav>
+			<section>section</section>
+			<article>article</article>
+			<aside>aside</aside>
+			<footer>footer</footer>
+			<details>details</details>
+			<summary>summary</summary>
+			<p>Non semantic :
+				div, span
+			</p>
+			
 	</body>
 </html>
