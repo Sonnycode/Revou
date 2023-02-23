@@ -1,0 +1,60 @@
+.container {
+	display: flex;
+}
+
+/* header */
+.header-link {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+.header-Home {
+	text-align: center;
+	border: aqua solid 2px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 20px;
+	background-color: greenyellow;
+	text-decoration: none;
+	color: black;
+}
+
+.header-OurProf {
+	border: aqua solid 2px;
+	padding: 20px;
+	background-color: greenyellow;
+  text-decoration: none;
+	color: black;
+}
+.header-Porto {
+	border: aqua solid 2px;
+	padding: 20px;
+	background-color: greenyellow;
+  text-decoration: none;
+	color: black;
+}
+
+.header-MessageUs {
+	border: aqua solid 2px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 20px;
+	background-color: greenyellow;
+  text-decoration: none;
+	color: black;
+}
+
+
+/* footer */
+footer{
+	display: flex;
+	margin-left: 100px;
+	flex-direction: column;
+}
+
+.messagesDiv{
+	display: flex;
+}
+.messagesDivOutput{
+	margin-left: 200px;
+}
