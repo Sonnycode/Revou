@@ -180,3 +180,32 @@ footer{
 .messagesDivOutput{
 	margin-left: 200px;
 }
+
+@media screen and (max-width: 360px) {
+	/* nav bar */
+	.header-link {
+		display: flex;
+		align-items: center;
+		margin-left: 250px;
+	}
+	.header-OurProf {
+		border: aqua solid 2px;
+		padding: 12px;
+		background-color: greenyellow;
+		text-decoration: none;
+		color: black;
+	}
+	.header-MessageUs {
+		border: aqua solid 2px;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+		padding: 11px;
+		background-color: greenyellow;
+		text-decoration: none;
+		color: black;
+	}
+	/* footer */
+	.messagesDivOutput {
+		margin-left: 20px;
+	}
+}
